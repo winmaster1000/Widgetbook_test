@@ -58,7 +58,7 @@ class HotReload extends StatelessWidget {
           name: 'widgets',
           widgets: [
             WidgetElement(
-              name: '$CustomWidget',
+              name: 'Template',
               stories: [
                 Story(
                   name: 'Default',
@@ -68,22 +68,6 @@ class HotReload extends StatelessWidget {
             ),
           ],
           folders: [
-            Folder(
-              name: 'Texts',
-              widgets: [
-                WidgetElement(
-                  name: 'Normal Text',
-                  stories: [
-                    Story(
-                      name: 'Default',
-                      builder: (context) => const Text(
-                        'The brown fox ...',
-                      ),
-                    ),
-                  ],
-                ),
-              ],
-            ),
             Folder(
               name: "Daily Status App",
               widgets: [
